@@ -1,0 +1,81 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+.env
+.env.*
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Model files / ML artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+*.xgb
+
+# MongoDB local dump files (optional)
+dump/
+*.bson
+*.json
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Docker
+docker-compose.override.yml
+*.tar
+Dockerfile
+.dockerignore
+
+# FastAPI + Uvicorn
+instance/
+*.db
+*.sqlite3
+
+# HTML templates/static files (if temporary or test files exist)
+greenvision/templates/__pycache__/
+greenvision/static/__pycache__/
+
+# AWS credentials/secrets (put in .env or config/)
+*.pem
+secrets/
+config.yaml
+
+# Test / CI
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Tools / Python packaging
+pip-wheel-metadata/
+*.dist-info/
+*.spec
+
+# Package metadata folders
+.eggs/
