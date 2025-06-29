@@ -1,96 +1,158 @@
-# ======================
-# 📦 PYTHON / FASTAPI
-# ======================
-
-# Bytecode / cache
+# ====================================
+# PYTHON FILES & CACHE
+# ====================================
 __pycache__/
 *.py[cod]
 *.so
+*.pyd
+*.pyc
+*.pyo
+*.py,cover
+*.pyw
 
-# Virtual environment
+# ====================================
+# VIRTUAL ENVIRONMENTS
+# ====================================
 env/
 venv/
 .venv/
 ENV/
 enviornment/
-.env
-.env.*
+.Python
+.python-version
+pip-wheel-metadata/
+__pypackages__/
 
-# Installer folders
-*.egg-info/
-*.dist-info/
+# ====================================
+# SYSTEM / OS FILES
+# ====================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.bak
+*.swp
+*.tmp
 
-# ======================
-# 🧠 ML / MODEL FILES
-# ======================
+# ====================================
+# IDE & EDITOR CONFIGS
+# ====================================
+.vscode/
+.idea/
+.spyderproject
+.ropeproject
+.dmypy.json
+.pyre/
+.ipynb_checkpoints/
+*.sublime-workspace
+*.sublime-project
 
-# Common model files
+# ====================================
+# TESTING & COVERAGE
+# ====================================
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+hypothesis/
+.cache/
+
+# ====================================
+# MODEL / LARGE FILES
+# ====================================
 *.pkl
 *.joblib
 *.h5
 *.pt
-*.xgb
 *.onnx
+*.xgb
+*.sav
+*.weights
+*.model
+*.dll
+*.exe
+*.so
 
-# Monitoring & logs
-*.log
-evidently_report/
-logs/
-
-# ======================
-# 🧪 TESTING / COVERAGE
-# ======================
-
-.pytest_cache/
-.coverage
-htmlcov/
-
-# ======================
-# 🖼️ NOTEBOOK / TEMP FILES
-# ======================
-
-.ipynb_checkpoints/
-*.ipynb
-*.bak
-*.tmp
-*.swp
-
-# ======================
-# 🧱 OS / SYSTEM FILES
-# ======================
-
-.DS_Store
-Thumbs.db
-
-# ======================
-# 🛠️ EDITOR CONFIG
-# ======================
-
-.vscode/
-.idea/
-
-# ======================
-# 🐳 DOCKER / CI/CD
-# ======================
-
-.dockerignore
+# ====================================
+# DEPLOYMENT / CI/CD / DOCKER
+# ====================================
 Dockerfile
+.dockerignore
 *.tar
-docker-compose.override.yml
+*.img
+*.qcow2
+*.iso
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+*.log
 
-# ======================
-# 🗄️ CONFIG / SECRETS
-# ======================
+# GitHub Actions
+.github/workflows/
 
-*.yaml
-*.yml
+# ====================================
+# CONFIGS & SECRETS
+# ====================================
+.env
+.env.*
 *.pem
-secrets/
+*.key
+*.crt
 config.yaml
+config.yml
+secrets/
+local_settings.py
 
-# ======================
-# 📄 TEMPLATE CACHES
-# ======================
+# ====================================
+# DATABASES
+# ====================================
+*.sqlite3
+*.sqlite
+db.sqlite3
+db.sqlite3-journal
 
-greenvision/templates/__pycache__/
+# ====================================
+# STATIC & TEMP FOLDERS
+# ====================================
 greenvision/static/__pycache__/
+greenvision/templates/__pycache__/
+media/
+site/
+uploads/
+logs/
+temp/
+tmp/
+*.log
+
+# ====================================
+# JUPYTER / DOCS / DIST
+# ====================================
+.ipynb_checkpoints/
+docs/_build/
+build/
+dist/
+*.egg-info/
+.eggs/
+develop-eggs/
+downloads/
+wheels/
+share/python-wheels/
+sdist/
+target/
+MANIFEST
+*.egg
+.installed.cfg
+
+# ====================================
+# CELERY / TASK QUEUE
+# ====================================
+celerybeat-schedule
+celerybeat.pid
+
+
