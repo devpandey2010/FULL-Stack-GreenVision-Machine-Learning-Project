@@ -1,81 +1,96 @@
-# Byte-compiled / cache
+# ======================
+# 📦 PYTHON / FASTAPI
+# ======================
+
+# Bytecode / cache
 __pycache__/
 *.py[cod]
 *.so
-*.egg-info/
 
-# Jupyter Notebooks
-.ipynb_checkpoints/
-
-# Virtual Environments
-.venv/
-venv/
+# Virtual environment
 env/
+venv/
+.venv/
 ENV/
-env.bak/
+enviornment/
 .env
 .env.*
 
-# OS/system files
-.DS_Store
-Thumbs.db
+# Installer folders
+*.egg-info/
+*.dist-info/
 
-# IDE/editor settings
-.vscode/
-.idea/
-*.swp
+# ======================
+# 🧠 ML / MODEL FILES
+# ======================
 
-# Logs
-*.log
-
-# Model files / ML artifacts
+# Common model files
 *.pkl
 *.joblib
 *.h5
 *.pt
-*.onnx
 *.xgb
+*.onnx
 
-# MongoDB local dump files (optional)
-dump/
-*.bson
-*.json
+# Monitoring & logs
+*.log
+evidently_report/
+logs/
 
-# Build / Distribution
-build/
-dist/
-*.egg-info/
-*.whl
+# ======================
+# 🧪 TESTING / COVERAGE
+# ======================
 
-# Docker
-docker-compose.override.yml
-*.tar
-Dockerfile
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ======================
+# 🖼️ NOTEBOOK / TEMP FILES
+# ======================
+
+.ipynb_checkpoints/
+*.ipynb
+*.bak
+*.tmp
+*.swp
+
+# ======================
+# 🧱 OS / SYSTEM FILES
+# ======================
+
+.DS_Store
+Thumbs.db
+
+# ======================
+# 🛠️ EDITOR CONFIG
+# ======================
+
+.vscode/
+.idea/
+
+# ======================
+# 🐳 DOCKER / CI/CD
+# ======================
+
 .dockerignore
+Dockerfile
+*.tar
+docker-compose.override.yml
 
-# FastAPI + Uvicorn
-instance/
-*.db
-*.sqlite3
+# ======================
+# 🗄️ CONFIG / SECRETS
+# ======================
 
-# HTML templates/static files (if temporary or test files exist)
-greenvision/templates/__pycache__/
-greenvision/static/__pycache__/
-
-# AWS credentials/secrets (put in .env or config/)
+*.yaml
+*.yml
 *.pem
 secrets/
 config.yaml
 
-# Test / CI
-htmlcov/
-.coverage
-.pytest_cache/
+# ======================
+# 📄 TEMPLATE CACHES
+# ======================
 
-# Tools / Python packaging
-pip-wheel-metadata/
-*.dist-info/
-*.spec
-
-# Package metadata folders
-.eggs/
+greenvision/templates/__pycache__/
+greenvision/static/__pycache__/
