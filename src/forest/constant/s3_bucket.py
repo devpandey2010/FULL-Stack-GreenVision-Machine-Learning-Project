@@ -1,0 +1,2 @@
+TRAINING_BUCKET_NAME="forestmodels"
+PREDICTION_BUCKET_NAME="forestpreddata"
